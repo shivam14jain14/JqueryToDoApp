@@ -1,0 +1,96 @@
+#shivam{
+	
+	width: 360px;
+	
+	background: #f8f8f8;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	margin: auto;
+	margin-top: 300px;
+	
+
+}
+span{
+
+	background: #eee8aa;
+	height: 40px;
+	width: 0;
+	margin-right: 20px;
+	margin-left: 0;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	transition: 0.2 linear;
+	/*trasition time kam kiya hai*/
+	opacity: 0;
+	/*because icon was visible even when the span width was 0 px wide*/
+}
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+h1{
+	background-color: #2980b9;
+	padding: 10px 20px;
+	font-size: 24px;
+	margin: 0 auto;
+	font-weight: normal;
+	color: white;
+	text-transform: uppercase;
+}
+.toggle{
+	color: gray;
+	text-decoration: line-through;
+}
+input{
+   
+   border: 3px solid rgba(0, 0, 0, 0);
+
+  color: #2980b9;
+	margin-top: 0;
+	font-size: 18px;
+	width: 100%;
+
+	padding: 13px 13px 13px 20px;
+	background-color: #f8f8f8;
+	box-sizing: border-box;
+
+}
+input:focus{
+	background-color: #fff;
+	border: 2px solid #2980b9;
+}
+.fa-plus{
+	margin-left: 50px;
+	float-right;
+}
+li{
+	padding: 5px 20px 5px 5px;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	background-color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+}
+li:nth-child(2n){
+	padding: 5px 20px 5px 5px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f8f8f8;
+}
+ul{
+	list-style: none;
+
+	/*to remove bullet points*/
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+
+}
